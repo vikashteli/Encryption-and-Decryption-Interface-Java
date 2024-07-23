@@ -173,7 +173,8 @@ public class SignUp extends JFrame implements ActionListener   {
                    addData(s1,s8,s2,s5,s6,s7);
                        
                      
-                        JOptionPane.showMessageDialog(btn1, "Data Saved Successfully");   
+                        JOptionPane.showMessageDialog(btn1, "Data Saved Successfully"); 
+                        Login pg=new Login();
                 }  
                 catch (Exception ex)   
                 {  
